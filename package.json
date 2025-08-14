@@ -2,11 +2,10 @@
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MuhammadEssa25.github.io",
-
+  "homepage": "https://muhammadessa25.github.io/",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
   },
